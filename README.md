@@ -1,5 +1,9 @@
 # aws-get-web-identity-token
 
+[![CI](https://github.com/winebarrel/aws-get-web-identity-token/actions/workflows/ci.yml/badge.svg)](https://github.com/winebarrel/aws-get-web-identity-token/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/winebarrel/aws-get-web-identity-token/graph/badge.svg?token=gepqdh7Np4)](https://codecov.io/gh/winebarrel/aws-get-web-identity-token)
+[![AI Generated](https://img.shields.io/badge/AI%20Generated-Claude-orange?logo=anthropic)](https://claude.ai/claude-code)
+
 A single-binary CLI for the AWS STS [GetWebIdentityToken](https://docs.aws.amazon.com/STS/latest/APIReference/API_GetWebIdentityToken.html) API.
 
 It returns a signed JSON Web Token (JWT) that represents the calling AWS identity, for use with external services that support OIDC discovery (IAM Outbound Identity Federation). This is the same operation as `aws sts get-web-identity-token`, packaged as a dependency-free static binary.
