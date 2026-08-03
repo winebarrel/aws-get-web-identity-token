@@ -6,11 +6,7 @@ It returns a signed JSON Web Token (JWT) that represents the calling AWS identit
 
 ## Installation
 
-```sh
-brew install winebarrel/aws-get-web-identity-token/aws-get-web-identity-token
-```
-
-Or download a binary from the [releases page](https://github.com/winebarrel/aws-get-web-identity-token/releases), or build it yourself:
+Download a binary from the [releases page](https://github.com/winebarrel/aws-get-web-identity-token/releases), or build it yourself:
 
 ```sh
 go install github.com/winebarrel/aws-get-web-identity-token/cmd/aws-get-web-identity-token@latest
